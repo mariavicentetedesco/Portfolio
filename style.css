@@ -40,7 +40,7 @@ h1 {
 
 header img {
     display: flex;
-    height: 300px;
+    height: 15%;
     width: auto;
     float: right;
     margin-top: 4.5rem;
@@ -78,4 +78,32 @@ header img {
     min-width: 3rem;
     margin: 1rem;
     
+}
+
+@media only screen and (max-width:600px) {
+
+    h1 {
+        width: 95%;
+        text-align: center;
+    }
+   
+    header img {
+        float:left;
+        width: 80%;
+        height: auto;
+        margin-left: 2rem;
+        margin-top: 3rem;
+    }
+
+    #about-me, #proejcts {
+        width: 80%;
+        align-self: center;
+
+    }
+
+    #projects img {
+        height: auto;
+        width: 20rem;
+        display: none;
+    }
 }
